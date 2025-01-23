@@ -13,7 +13,9 @@ Conclusions and comparisons of the models' performance.
 
 ## How to Use This Notebook
 Outputs Included: All cells in the notebook have been executed, and outputs are displayed for easy viewing.
+
 Reproducibility: The notebook is organized and can be run end-to-end without errors if desired.
+
 Requirements: Install the necessary Python libraries listed in the notebook, then download the datasets linked below in the "Datasets" section
 
 ## Datasets
@@ -28,14 +30,18 @@ Ensure that the folder structure matches the file paths referenced in the Jupyte
 ## Project Highlights
 -Data Preprocessing:
   Handling missing values, encoding categorical data, and creating new features.
+  
 -Exploratory Data Analysis (EDA):
   Visualizations of feature relationships and insights into the data.
+  
 -Machine Learning Models:
   Linear Regression: Predicting continuous IMDb ratings.
   KNN: Classifying ratings into groups for categorical analysis.
   Decision Tree: Capturing non-linear relationships and interpreting feature importance.
+  
 -Hyperparameter Tuning:
   Optimized K for KNN and max depth for Decision Trees.
+  
 -Model Evaluation:
   Metrics such as R², RMSE, accuracy, and cross-validation results.
   Visualizations, including scatterplots, residual plots, and confusion matrices.
